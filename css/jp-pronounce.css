@@ -1,0 +1,32 @@
+.jp-pronounce-btn,
+.jp-tts {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.55em;
+  height: 1.55em;
+  margin-left: .38em;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: .92em;
+  line-height: 1;
+  background: rgba(255,255,255,.16);
+  box-shadow: 0 1px 4px rgba(0,0,0,.14);
+  vertical-align: middle;
+  transition: transform .14s ease, box-shadow .14s ease, background .14s ease;
+}
+.jp-pronounce-btn:hover,
+.jp-tts:hover {
+  transform: translateY(-1px) scale(1.05);
+  background: rgba(255,255,255,.28);
+  box-shadow: 0 2px 8px rgba(0,0,0,.18);
+}
+.jp-pronounce-btn:active,
+.jp-tts:active {
+  transform: scale(.96);
+}
+.jp-pronounce-btn i,
+.jp-tts i {
+  font-size: .9em;
+}

@@ -1,0 +1,24 @@
+/* 练马 kids 风格融合：关于卡背景 */
+aside .widget:first-of-type,
+.sidebar .widget:first-of-type,
+.sidebar section:first-of-type,
+#sidebar .widget:first-of-type,
+#sidebar section:first-of-type {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, .18), rgba(0, 0, 0, .18)),
+    url("/assets/theme/about-card.svg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 18px !important;
+}
+
+aside .widget:first-of-type,
+aside .widget:first-of-type a,
+.sidebar .widget:first-of-type,
+.sidebar .widget:first-of-type a,
+#sidebar .widget:first-of-type,
+#sidebar .widget:first-of-type a {
+  color: #fff !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,.35);
+}

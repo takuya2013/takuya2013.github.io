@@ -1,0 +1,30 @@
+.jp-tts {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.9em;
+  height: 1.9em;
+  margin-left: .35em;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  vertical-align: middle;
+  background: rgba(255,255,255,.88);
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+}
+.jp-tts:hover {
+  transform: translateY(-1px) scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,.18);
+  background: #fff;
+}
+.jp-tts:active {
+  transform: scale(.96);
+}
+.jp-tts i {
+  font-size: .92em;
+}
+.jp-tts.is-speaking {
+  background: #fff3b0;
+  box-shadow: 0 0 0 2px rgba(255,209,102,.35), 0 4px 12px rgba(0,0,0,.18);
+}

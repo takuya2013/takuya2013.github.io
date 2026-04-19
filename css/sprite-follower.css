@@ -1,0 +1,35 @@
+#cursor-sprite {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 84px;
+  height: 84px;
+  pointer-events: none;
+  z-index: 999999;
+  will-change: transform;
+}
+
+#cursor-sprite .sprite-body {
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/theme/nerimaru.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: spriteFloat 2.2s ease-in-out infinite;
+  transform-origin: center center;
+  filter: drop-shadow(0 8px 18px rgba(0,0,0,.18));
+}
+
+@keyframes spriteFloat {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+@media (max-width: 900px) {
+  #cursor-sprite {
+    width: 64px;
+    height: 64px;
+  }
+}

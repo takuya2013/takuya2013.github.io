@@ -1,0 +1,276 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>搭站日记｜今天做的不是一篇内容，而是把承载内容的整套博客搭好了 | 拓也日記</title><meta name="author" content="takuya"><meta name="copyright" content="takuya"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="今天做的不是一篇内容，而是把承载内容的整套博客搭好了。 表面上看，只是多了一个能打开的网站；但真正动手的时候才会发现，事情远没有“发个网页”那么轻。标题、副标题、页面、文章、图片、头像、路由、部署、发布，这些东西不是自己就会长在一起的，它们得一层一层接通，接错一点，整个页面就会跟你翻脸。 今天这套博客，是从几乎什么都没有开始，一步一步搭起来的。  从“能跑”开始，不是从“好看”开始一开始最先解决的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搭站日记｜今天做的不是一篇内容，而是把承载内容的整套博客搭好了">
+<meta property="og:url" content="https://takuya2013.github.io/2026/03/14/blog-setup-diary/index.html">
+<meta property="og:site_name" content="拓也日記">
+<meta property="og:description" content="今天做的不是一篇内容，而是把承载内容的整套博客搭好了。 表面上看，只是多了一个能打开的网站；但真正动手的时候才会发现，事情远没有“发个网页”那么轻。标题、副标题、页面、文章、图片、头像、路由、部署、发布，这些东西不是自己就会长在一起的，它们得一层一层接通，接错一点，整个页面就会跟你翻脸。 今天这套博客，是从几乎什么都没有开始，一步一步搭起来的。  从“能跑”开始，不是从“好看”开始一开始最先解决的">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://takuya2013.github.io/img/bb.jpg">
+<meta property="article:published_time" content="2026-03-14T11:35:00.000Z">
+<meta property="article:modified_time" content="2026-03-14T11:30:50.855Z">
+<meta property="article:author" content="takuya">
+<meta property="article:tag" content="GitHub Pages">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="学习日记">
+<meta property="article:tag" content="搭站记录">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://takuya2013.github.io/img/bb.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "搭站日记｜今天做的不是一篇内容，而是把承载内容的整套博客搭好了",
+  "url": "https://takuya2013.github.io/2026/03/14/blog-setup-diary/",
+  "image": "https://takuya2013.github.io/img/bb.jpg",
+  "datePublished": "2026-03-14T11:35:00.000Z",
+  "dateModified": "2026-03-14T11:30:50.855Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "takuya",
+      "url": "https://takuya2013.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/"><link rel="canonical" href="https://takuya2013.github.io/2026/03/14/blog-setup-diary/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '搭站日记｜今天做的不是一篇内容，而是把承载内容的整套博客搭好了',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><style>.aplayer.aplayer-fixed{z-index:999999!important;bottom:90px!important;left:0!important}.aplayer.aplayer-fixed .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed .aplayer-body:hover{left:0!important}#rightside{bottom:20px!important}</style><meta name="generator" content="Hexo 8.1.1"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/bh.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/bb.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 档案馆</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/bg.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">拓也日記</span></a><a class="nav-page-title" href="/"><span class="site-name">搭站日记｜今天做的不是一篇内容，而是把承载内容的整套博客搭好了</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 档案馆</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">搭站日记｜今天做的不是一篇内容，而是把承载内容的整套博客搭好了</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-03-14T11:35:00.000Z" title="发表于 2026-03-14 19:35:00">2026-03-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-03-14T11:30:50.855Z" title="更新于 2026-03-14 19:30:50">2026-03-14</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/">折腾记录</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>今天做的不是一篇内容，而是把承载内容的整套博客搭好了。</p>
+<p>表面上看，只是多了一个能打开的网站；但真正动手的时候才会发现，事情远没有“发个网页”那么轻。标题、副标题、页面、文章、图片、头像、路由、部署、发布，这些东西不是自己就会长在一起的，它们得一层一层接通，接错一点，整个页面就会跟你翻脸。</p>
+<p>今天这套博客，是从几乎什么都没有开始，一步一步搭起来的。</p>
+<hr>
+<h2 id="从“能跑”开始，不是从“好看”开始"><a href="#从“能跑”开始，不是从“好看”开始" class="headerlink" title="从“能跑”开始，不是从“好看”开始"></a>从“能跑”开始，不是从“好看”开始</h2><p>一开始最先解决的，不是样式，不是审美，也不是写什么内容，而是最朴素的问题：</p>
+<p>这个东西到底能不能跑起来？</p>
+<p>要先把 Hexo 跑通，把主题接上，把配置写对，再让网页真正能被打开。这个过程没有想象中那么帅，更多时候像在修一台脾气古怪的机器：这里少一个配置，那里少一个页面，前台看起来只是一个简单的报错，背后却常常是一整串没接上的路径和逻辑。</p>
+<p>但也正因为这样，等页面真的亮起来的时候，那种感觉很实在。</p>
+<p>不是“我好像懂了”，而是“我真的把它做出来了”。</p>
+<hr>
+<h2 id="真正花时间的，从来不是输入命令"><a href="#真正花时间的，从来不是输入命令" class="headerlink" title="真正花时间的，从来不是输入命令"></a>真正花时间的，从来不是输入命令</h2><p>很多人会觉得，搭博客这种事，大概就是复制几条命令，跟着教程走一遍就结束了。</p>
+<p>真做起来才知道，命令只是最表层的东西。真正花时间的，其实是后面的判断和修正：</p>
+<ul>
+<li>哪个配置该写在哪里</li>
+<li>哪个路径是错的</li>
+<li>为什么页面能打开，但子页面进不去</li>
+<li>为什么图片明明放进去了，却显示不出来</li>
+<li>为什么文章写了，最后却没被生成</li>
+<li>为什么发布成功了，网页还是 404</li>
+</ul>
+<p>这些问题不会因为你“差不多懂了”就自动消失。很多时候，你只能一个一个看，一个一个试，一个一个修。</p>
+<p>所以今天最有价值的，不是我敲了多少命令，而是我把这些零碎的问题，一个一个拧开了。</p>
+<hr>
+<h2 id="这件事真正让我在意的，不是上线，而是秩序"><a href="#这件事真正让我在意的，不是上线，而是秩序" class="headerlink" title="这件事真正让我在意的，不是上线，而是秩序"></a>这件事真正让我在意的，不是上线，而是秩序</h2><p>搭博客最吸引我的地方，不只是最后有个网址能打开。</p>
+<p>更重要的是，它给了内容一个真正稳定的容器。</p>
+<p>以前很多想法、学习记录、词汇整理、零散句子，可能写在笔记里，放在草稿里，停在某个聊天窗口里。它们存在过，但不成体系，也不容易回头再看。今天把博客搭起来之后，我第一次有一种很明确的感觉：这些东西终于有地方可以好好放下来了。</p>
+<p>不是随手一记，也不是路过式保存，而是认真归档，认真整理，认真留下来。</p>
+<p>这种感觉很像把一堆散页装订成册。内容本身没有变，但它终于有了骨架。</p>
+<hr>
+<h2 id="页面、配置、发布、访问，都是自己亲手走通的"><a href="#页面、配置、发布、访问，都是自己亲手走通的" class="headerlink" title="页面、配置、发布、访问，都是自己亲手走通的"></a>页面、配置、发布、访问，都是自己亲手走通的</h2><p>今天做完这一整套之后，我很清楚一件事：</p>
+<p>这个博客不是“搭出来了一个样子”，而是真的打通了。</p>
+<ul>
+<li>首页能进</li>
+<li>页面能开</li>
+<li>文章能发</li>
+<li>图片能显示</li>
+<li>配置能修改</li>
+<li>GitHub Pages 能上线</li>
+<li>改完内容以后，能重新部署出去</li>
+</ul>
+<p>这意味着以后它不是一个摆设，而是一个能长期使用的东西。</p>
+<p>我知道它的结构，知道它的问题，知道它是怎么跑起来的。以后就算再改主题、加功能、换页面、写文章，也不是从零开始乱撞了。</p>
+<p>这点很重要。</p>
+<p>因为很多东西，只有在你亲手把它从报错和混乱里拽出来之后，它才真正算是你的。</p>
+<hr>
+<h2 id="慢一点没关系，重要的是它已经成形了"><a href="#慢一点没关系，重要的是它已经成形了" class="headerlink" title="慢一点没关系，重要的是它已经成形了"></a>慢一点没关系，重要的是它已经成形了</h2><p>今天这一整套做下来，我最大的感受不是兴奋，而是踏实。</p>
+<p>有些成就感不是来自“终于完成了”，而是来自你知道这件事原本有多乱、多碎、多容易半路卡住，但你还是一点一点把它整理成了现在这样。</p>
+<p>慢一点没关系。</p>
+<p>比起追求一步到位，我更在意的是：最后留下来的，能不能真的长期用，能不能真的承载以后写下来的东西，能不能在几个月后、几年后，再回头看时，仍然是清楚的、稳定的、像样的。</p>
+<p>今天做的不是一篇内容。</p>
+<p>今天做的是，把以后很多内容要落下来的地方，先搭好了。</p>
+<hr>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>这应该只是开始。</p>
+<p>之后这里会慢慢放上学习记录、日常、词汇整理、阅读笔记，还有那些本来很容易散掉、但我想认真留下来的东西。</p>
+<p>先把地方搭好，再把内容一点点放进去。</p>
+<p>这样回头看的时候，至少会知道：这些东西不是偶然留下来的，而是我认真做过、认真整理过、认真想让它们留在这里的。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://takuya2013.github.io">takuya</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://takuya2013.github.io/2026/03/14/blog-setup-diary/">https://takuya2013.github.io/2026/03/14/blog-setup-diary/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://takuya2013.github.io" target="_blank">拓也日記</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a><a class="post-meta__tags" href="/tags/%E6%90%AD%E7%AB%99%E8%AE%B0%E5%BD%95/">搭站记录</a><a class="post-meta__tags" href="/tags/Hexo/">Hexo</a><a class="post-meta__tags" href="/tags/GitHub-Pages/">GitHub Pages</a><a class="post-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/">学习日记</a></div><div class="post-share"><div class="social-share" data-image="/img/bb.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2026/03/14/first-post/" title="我的第一篇文章"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">我的第一篇文章</div></div><div class="info-2"><div class="info-item-1">欢迎来到我的博客。 从今天开始，这里会认真记录一些东西。有些是技术，有些是生活，还有些只是夜里忽然闪过的一小块星光。 这一站为什么要搭起来因为很多东西不写下来，就像雪地里的脚印，太阳一出来就没了。 这篇文章只是开始后面我会继续完善页面、样式、评论和统计功能。 </div></div></div></a><a class="pagination-related" href="/2026/03/14/n2-reading-wordlist-diary/" title="学习日记｜把这张N2阅读词单重新排好的一天"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">学习日记｜把这张N2阅读词单重新排好的一天</div></div><div class="info-2"><div class="info-item-1">今天我把这张 N2 阅读手写词单从头到尾重新顺了一遍。 这次不再乱跳，不再串行，而是老老实实按原图从左到右、逐行向下整理。一共 64 项，一个都不漏。为了以后复习时不再被顺序绊一下，我把每一项都整理成了能直接当博客正文发出去的学习笔记：保留原词，补上假名、对应汉字或外来语英文来源，中文意思尽量写全，再放一个标准例句，最后加一句最要紧的用法提醒。 这样看起来，它终于不再只是一张散乱的手写纸，而是一篇有骨架、有顺序、以后也能反复回看的学习日记。  一、基础词与常见表达（01—16）01. ルール 假名：ルール   外来语来源：英语 rule   中文：规则；规章；约定俗成的规范   例句：まずルールを確認してから作業を始めよう。   提醒：常和「守る・決める・破る」搭配。  02. ほんの少し 假名：ほんのすこし   可补写：少し   中文：只有一点点；仅仅一点   例句：ほんの少し考え方を変えるだけで、気持ちはずいぶん楽になる。   提醒：用于把数量或程度压得很小。  03. プロ 假名：プロ   外来语来源：英语 pro &#x2F; professional   中文：专业人士...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2026/03/14/first-post/" title="我的第一篇文章"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-14</div><div class="info-item-2">我的第一篇文章</div></div><div class="info-2"><div class="info-item-1">欢迎来到我的博客。 从今天开始，这里会认真记录一些东西。有些是技术，有些是生活，还有些只是夜里忽然闪过的一小块星光。 这一站为什么要搭起来因为很多东西不写下来，就像雪地里的脚印，太阳一出来就没了。 这篇文章只是开始后面我会继续完善页面、样式、评论和统计功能。 </div></div></div></a><a class="pagination-related" href="/2026/03/14/n2-reading-wordlist-diary/" title="学习日记｜把这张N2阅读词单重新排好的一天"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-14</div><div class="info-item-2">学习日记｜把这张N2阅读词单重新排好的一天</div></div><div class="info-2"><div class="info-item-1">今天我把这张 N2 阅读手写词单从头到尾重新顺了一遍。 这次不再乱跳，不再串行，而是老老实实按原图从左到右、逐行向下整理。一共 64 项，一个都不漏。为了以后复习时不再被顺序绊一下，我把每一项都整理成了能直接当博客正文发出去的学习笔记：保留原词，补上假名、对应汉字或外来语英文来源，中文意思尽量写全，再放一个标准例句，最后加一句最要紧的用法提醒。 这样看起来，它终于不再只是一张散乱的手写纸，而是一篇有骨架、有顺序、以后也能反复回看的学习日记。  一、基础词与常见表达（01—16）01. ルール 假名：ルール   外来语来源：英语 rule   中文：规则；规章；约定俗成的规范   例句：まずルールを確認してから作業を始めよう。   提醒：常和「守る・決める・破る」搭配。  02. ほんの少し 假名：ほんのすこし   可补写：少し   中文：只有一点点；仅仅一点   例句：ほんの少し考え方を変えるだけで、気持ちはずいぶん楽になる。   提醒：用于把数量或程度压得很小。  03. プロ 假名：プロ   外来语来源：英语 pro &#x2F; professional   中文：专业人士...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/bb.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">takuya</div><div class="author-info-description">やられたら、やり返す。倍返しだ！</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/takuya2013"><i class="fab fa-github"></i><span>GitHub</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/takuya2013" target="_blank" title="GitHub"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:9882688@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%8E%E2%80%9C%E8%83%BD%E8%B7%91%E2%80%9D%E5%BC%80%E5%A7%8B%EF%BC%8C%E4%B8%8D%E6%98%AF%E4%BB%8E%E2%80%9C%E5%A5%BD%E7%9C%8B%E2%80%9D%E5%BC%80%E5%A7%8B"><span class="toc-number">1.</span> <span class="toc-text">从“能跑”开始，不是从“好看”开始</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9C%9F%E6%AD%A3%E8%8A%B1%E6%97%B6%E9%97%B4%E7%9A%84%EF%BC%8C%E4%BB%8E%E6%9D%A5%E4%B8%8D%E6%98%AF%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A4"><span class="toc-number">2.</span> <span class="toc-text">真正花时间的，从来不是输入命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%99%E4%BB%B6%E4%BA%8B%E7%9C%9F%E6%AD%A3%E8%AE%A9%E6%88%91%E5%9C%A8%E6%84%8F%E7%9A%84%EF%BC%8C%E4%B8%8D%E6%98%AF%E4%B8%8A%E7%BA%BF%EF%BC%8C%E8%80%8C%E6%98%AF%E7%A7%A9%E5%BA%8F"><span class="toc-number">3.</span> <span class="toc-text">这件事真正让我在意的，不是上线，而是秩序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A1%B5%E9%9D%A2%E3%80%81%E9%85%8D%E7%BD%AE%E3%80%81%E5%8F%91%E5%B8%83%E3%80%81%E8%AE%BF%E9%97%AE%EF%BC%8C%E9%83%BD%E6%98%AF%E8%87%AA%E5%B7%B1%E4%BA%B2%E6%89%8B%E8%B5%B0%E9%80%9A%E7%9A%84"><span class="toc-number">4.</span> <span class="toc-text">页面、配置、发布、访问，都是自己亲手走通的</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%85%A2%E4%B8%80%E7%82%B9%E6%B2%A1%E5%85%B3%E7%B3%BB%EF%BC%8C%E9%87%8D%E8%A6%81%E7%9A%84%E6%98%AF%E5%AE%83%E5%B7%B2%E7%BB%8F%E6%88%90%E5%BD%A2%E4%BA%86"><span class="toc-number">5.</span> <span class="toc-text">慢一点没关系，重要的是它已经成形了</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%99%E5%9C%A8%E6%9C%80%E5%90%8E"><span class="toc-number">6.</span> <span class="toc-text">写在最后</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/04/17/jlpt-n2-reading-2013-07/" title="JLPT N2 2013年7月读解词汇整理">JLPT N2 2013年7月读解词汇整理</a><time datetime="2026-04-17T15:29:46.000Z" title="发表于 2026-04-17 23:29:46">2026-04-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/04/14/jlpt-n2-reading-2012-12/" title="JLPT N2 2012年12月 读解词汇整理（按手写页从左到右）">JLPT N2 2012年12月 读解词汇整理（按手写页从左到右）</a><time datetime="2026-04-14T04:34:00.000Z" title="发表于 2026-04-14 12:34:00">2026-04-14</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/04/09/jlpt-n2-reading-2012-07/" title="JLPT 2012年7月 N2 读解词汇整理（纯文本版｜按手写稿从左到右）">JLPT 2012年7月 N2 读解词汇整理（纯文本版｜按手写稿从左到右）</a><time datetime="2026-04-09T13:01:28.000Z" title="发表于 2026-04-09 21:01:28">2026-04-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/04/08/jlpt-n2-reading-2011-12/" title="JLPT 2011年12月 N2 读解词汇整理（纯文本版｜按手写稿从左到右）">JLPT 2011年12月 N2 读解词汇整理（纯文本版｜按手写稿从左到右）</a><time datetime="2026-04-08T05:20:28.000Z" title="发表于 2026-04-08 13:20:28">2026-04-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/04/08/jlpt-n2-2011-12-horizontal/" title="JLPT N2 2011.12 读解词汇整理（按左到右）">JLPT N2 2011.12 读解词汇整理（按左到右）</a><time datetime="2026-04-08T03:40:09.000Z" title="发表于 2026-04-08 11:40:09">2026-04-08</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By takuya</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div><div class="footer_custom_text">作者邮箱：<a href="mailto:9882688@gmail.com">9882688@gmail.com</a><br>本页面由 <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> 提供支持<br>本网站已稳定运行 <span id="site-runtime"></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><div class="js-pjax"></div><meting-js server="netease" type="playlist" id="17905563532" fixed="true" mini="true" autoplay="false" loop="all" order="list" preload="auto" volume="0.5" list-folded="true" list-max-height="260px"></meting-js><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js" defer="defer"></script><script>document.addEventListener('DOMContentLoaded', () => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => {
+      try {
+        fn()
+      } catch (err) {
+        console.debug('Pjax callback failed:', err)
+      }
+    })
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      false
+        ? pjax.loadUrl('/404.html')
+        : window.location.href = e.request.responseURL
+    }
+  })
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="https://cdn.jsdelivr.net/npm/live2d-widget@^3.1.3/lib/L2Dwidget.min.js"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.55,"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"superSample":2,"width":180,"height":220,"position":"left","hOffset":10,"vOffset":-25},"mobile":{"show":true,"scale":0.55},"react":{"opacityDefault":0.96,"opacityOnHover":1},"log":false});</script></body></html>
