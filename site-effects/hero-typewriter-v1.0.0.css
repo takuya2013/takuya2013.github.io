@@ -1,0 +1,39 @@
+/* Takuya homepage only. Keep the theme's font, colour, background and geometry. */
+@media (prefers-reduced-motion: no-preference) {
+  html[data-takuya-hero-pending] #page-header #site-info #site-title,
+  html[data-takuya-hero-pending] #page-header #site-info #site-subtitle {
+    opacity: 0 !important;
+  }
+}
+#page-header #site-info .tky-type-accessible {
+  position: absolute !important;
+  width: 1px !important; height: 1px !important;
+  margin: -1px !important; padding: 0 !important;
+  overflow: hidden !important; clip: rect(0, 0, 0, 0) !important;
+  clip-path: inset(50%) !important; white-space: nowrap !important;
+  border: 0 !important;
+}
+#page-header #site-info .tky-type-glyph {
+  opacity: 0 !important;
+  /* Inline layout preserves Japanese wrapping and reserves the final line width. */
+  display: inline !important;
+}
+#page-header #site-info .tky-type-glyph[data-visible="1"] { opacity: 1 !important; }
+#page-header #site-info .tky-type-caret {
+  position: absolute !important;
+  width: 2px; min-width: 0; border: 0; border-radius: 1px;
+  background: currentColor; margin: 0; padding: 0;
+  pointer-events: none; user-select: none;
+  opacity: .86; box-shadow: 0 0 6px rgb(255 255 255 / .10);
+}
+#page-header #site-info .tky-type-caret[data-idle="1"] {
+  animation: tky-hero-caret 840ms step-end infinite;
+}
+#page-header #site-info .tky-type-caret[data-fade="1"] {
+  animation: none; transition: opacity 200ms ease; opacity: 0;
+}
+@keyframes tky-hero-caret { 0%, 49% { opacity: .86; } 50%, 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  #page-header #site-info .tky-type-glyph { opacity: 1 !important; }
+  #page-header #site-info .tky-type-caret { display: none !important; }
+}

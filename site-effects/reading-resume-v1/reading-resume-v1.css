@@ -1,0 +1,68 @@
+/* Takuya Reading Resume 1.0.0 — article-local, non-floating, accessible. */
+.tky-reading-resume {
+  --tky-rs-bg: rgba(250,252,255,.91);
+  --tky-rs-border: #e2e8f1;
+  --tky-rs-text: #1e2a3a;
+  --tky-rs-muted: #68798b;
+  --tky-rs-primary: #356f9f;
+  --tky-rs-tint: #eaf2f9;
+  position: relative; display: flex; align-items: center; gap: 12px;
+  min-height: 68px; margin: 0 0 23px; padding: 11px 15px;
+  color: var(--tky-rs-text); background: var(--tky-rs-bg);
+  border: 1px solid var(--tky-rs-border); border-radius: 15px;
+  box-sizing: border-box; font-family: inherit; line-height: 1.45;
+  overflow: hidden; box-shadow: 0 4px 22px rgba(25,45,75,.035);
+}
+[data-theme="dark"] .tky-reading-resume,
+html[data-theme="dark"] .tky-reading-resume,
+body[data-theme="dark"] .tky-reading-resume {
+  --tky-rs-bg: rgba(29,35,45,.94);
+  --tky-rs-border: #3d4756;
+  --tky-rs-text: #eef1f7;
+  --tky-rs-muted: #afbac8;
+  --tky-rs-primary: #a9d4ff;
+  --tky-rs-tint: #303e50;
+}
+.tky-reading-resume__mark {
+  flex: 0 0 35px; width: 35px; height: 35px; border-radius: 10px;
+  display: grid; place-items: center; color: var(--tky-rs-primary);
+  background: var(--tky-rs-tint);
+}
+.tky-reading-resume__mark svg {width: 18px; height: 18px;}
+.tky-reading-resume__body {min-width:0;display:flex; flex-direction:column;flex:1;gap:2px;}
+.tky-reading-resume__name {font-size:13px;letter-spacing:.01em;font-weight:650;color:var(--tky-rs-text);}
+.tky-reading-resume__sub {font-size:12px;color:var(--tky-rs-muted);font-variant-numeric:tabular-nums;}
+.tky-reading-resume button {cursor:pointer;appearance:none;font:inherit;}
+.tky-reading-resume__go {
+  white-space: nowrap;flex-shrink:0;display:inline-flex;gap:6px;align-items:center;justify-content:center;
+  background:var(--tky-rs-tint);border:1px solid transparent;
+  color:var(--tky-rs-primary);border-radius:10px;
+  padding:9px 11px;font-size:12px;font-weight:650;line-height:1.1;
+  transition:background-color .18s ease,transform .18s ease;
+}
+.tky-reading-resume__go svg {width:14px;height:14px;}
+.tky-reading-resume__go:hover {filter:brightness(.97);transform:translateY(-1px);}
+.tky-reading-resume__close {
+  flex-shrink:0;display:grid;place-items:center;width:24px;height:28px;
+  color:var(--tky-rs-muted);border:0;background:transparent;
+  padding:0;font-size:22px;line-height:1;border-radius:6px;
+}
+.tky-reading-resume__go:focus-visible,.tky-reading-resume__close:focus-visible {outline:2px solid var(--tky-rs-primary);outline-offset:3px;}
+.tky-reading-resume__progress {
+  position:absolute;bottom:0;left:0;height:2px;max-width:100%;pointer-events:none;
+  background:var(--tky-rs-primary);opacity:.65;
+}
+@media(max-width:480px) {
+  .tky-reading-resume {gap:9px;padding:10px 10px 10px 11px;min-height:60px;margin-bottom:17px;}
+  .tky-reading-resume__mark{width:31px;height:31px;flex-basis:31px;}
+  .tky-reading-resume__name{font-size:12px;}
+  .tky-reading-resume__sub{font-size:11px;}
+  .tky-reading-resume__go{font-size:11px;padding:8px 9px;gap:4px;}
+  .tky-reading-resume__close{width:20px;font-size:19px;}
+}
+@media(prefers-reduced-motion:reduce){.tky-reading-resume__go{transition:none!important;}}
+@media print{.tky-reading-resume{display:none!important}}
+
+/* Give this single toolbar priority over broad theme rules for article sections. */
+#post > section.tky-reading-resume {min-height:68px;padding:11px 15px;border:1px solid var(--tky-rs-border);margin:0 0 23px;}
+@media(max-width:480px){#post > section.tky-reading-resume {min-height:60px;padding:10px 10px 10px 11px;margin-bottom:17px;}}

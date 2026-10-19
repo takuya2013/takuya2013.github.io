@@ -1,0 +1,40 @@
+# Owned by takuya-ghpages-mirror. No private data is downloaded from the VPS:
+# this workflow deploys only the already-audited static files committed to gh-pages.
+name: Publish Takuya static mirror
+
+on:
+  push:
+    branches:
+      - gh-pages
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/gh-pages'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout the verified public snapshot
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload static pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4

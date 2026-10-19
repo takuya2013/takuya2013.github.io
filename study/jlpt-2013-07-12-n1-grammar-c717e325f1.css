@@ -1,0 +1,112 @@
+/* study-jlpt-2013-07-12-n1-grammar only. No global theme rules, fonts, scripts, page breaks or animations. */
+#study-jlpt-2013-07-12-n1-grammar{--ink:#202124;--muted:#555e6a;--line:#dce1e7;--paper:#ffffff;--soft:#f7f8fa;--link:#234c80;color:var(--ink);background:var(--paper);font:17px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Noto Sans CJK JP","Microsoft YaHei",sans-serif;container-type:inline-size;padding:clamp(12px,2.2vw,28px);border-radius:16px;overflow-wrap:anywhere;text-align:left}
+[data-theme="dark"] #study-jlpt-2013-07-12-n1-grammar,#study-jlpt-2013-07-12-n1-grammar[data-theme="dark"]{--ink:#f2f3f5;--muted:#b9c0ca;--line:#3a4048;--paper:#191c21;--soft:#24282e;--link:#b8d5ff;color-scheme:dark}
+#study-jlpt-2013-07-12-n1-grammar *{box-sizing:border-box}
+#study-jlpt-2013-07-12-n1-grammar .eyebrow{font-size:12px;letter-spacing:.12em;color:var(--muted);margin:0 0 9px}
+#study-jlpt-2013-07-12-n1-grammar .lead{font-size:16px;max-width:66em;margin:0 0 8px}
+#study-jlpt-2013-07-12-n1-grammar .scope{color:var(--muted);font-size:13px;margin:0}
+#study-jlpt-2013-07-12-n1-grammar .contents{display:flex;flex-wrap:wrap;gap:10px;padding:18px 0 24px;margin:0 0 24px;border-bottom:1px solid var(--line)}
+#study-jlpt-2013-07-12-n1-grammar a{color:var(--link);text-decoration:none;border-bottom:1px solid transparent}
+#study-jlpt-2013-07-12-n1-grammar a:hover{border-bottom-color:currentColor}
+#study-jlpt-2013-07-12-n1-grammar a:focus-visible,#study-jlpt-2013-07-12-n1-grammar summary:focus-visible{outline:2px solid var(--link);outline-offset:4px}
+#study-jlpt-2013-07-12-n1-grammar .contents a{font-size:13px;background:var(--soft);padding:6px 13px;border:1px solid var(--line);border-radius:99px}
+#study-jlpt-2013-07-12-n1-grammar h2{font-size:23px;line-height:1.45;font-weight:680;letter-spacing:.02em;margin:38px 0 18px;color:var(--ink);scroll-margin-top:90px}
+#study-jlpt-2013-07-12-n1-grammar .words{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;align-items:stretch;margin:0;padding:0}
+#study-jlpt-2013-07-12-n1-grammar .word{position:relative;border:1px solid var(--line);border-radius:13px;padding:18px 17px 16px;background:var(--paper);min-width:0;box-shadow:none;scroll-margin-top:90px}
+#study-jlpt-2013-07-12-n1-grammar .word.tone-0{background:linear-gradient(180deg,#eef5fc 0,transparent 142px),var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar .word.tone-1{background:linear-gradient(180deg,#fff3ed 0,transparent 142px),var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar .word.tone-2{background:linear-gradient(180deg,#f7f1fb 0,transparent 142px),var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar .word.tone-3{background:linear-gradient(180deg,#fcf0f3 0,transparent 142px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2013-07-12-n1-grammar .word.tone-0{background:linear-gradient(180deg,#242e3b 0,transparent 142px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2013-07-12-n1-grammar .word.tone-1{background:linear-gradient(180deg,#322b26 0,transparent 142px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2013-07-12-n1-grammar .word.tone-2{background:linear-gradient(180deg,#2d2937 0,transparent 142px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2013-07-12-n1-grammar .word.tone-3{background:linear-gradient(180deg,#352831 0,transparent 142px),var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar .entry-meta{display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:11px;letter-spacing:.04em;margin:0 0 10px}
+#study-jlpt-2013-07-12-n1-grammar .number{font-variant-numeric:tabular-nums;font-weight:650}
+#study-jlpt-2013-07-12-n1-grammar h3{font-size:20px;line-height:1.6;font-weight:690;letter-spacing:0;color:var(--ink);margin:0 0 7px;padding:0;scroll-margin-top:90px}
+#study-jlpt-2013-07-12-n1-grammar .head-form{font-size:12px;font-weight:400;color:var(--muted);display:block;line-height:1.7;margin:2px 0 0}
+#study-jlpt-2013-07-12-n1-grammar .reading{font-size:14px;color:var(--ink);margin:0 0 13px;line-height:1.75}
+#study-jlpt-2013-07-12-n1-grammar .meaning{font-size:16px;font-weight:630;line-height:1.8;margin:0 0 12px;color:var(--ink)}
+#study-jlpt-2013-07-12-n1-grammar .usage{font-size:14px;color:var(--ink);margin:0;line-height:1.9}
+#study-jlpt-2013-07-12-n1-grammar .label{font-weight:650;font-size:11px;color:var(--muted);display:block;letter-spacing:.06em;margin:0 0 3px}
+#study-jlpt-2013-07-12-n1-grammar .word-note{font-size:13px;border-top:1px solid var(--line);padding-top:12px;margin:14px 0 0;color:var(--ink);line-height:1.8}
+#study-jlpt-2013-07-12-n1-grammar .loan{padding:12px;margin:14px 0 0;border:1px solid var(--line);background:var(--soft);border-radius:8px;font-size:13px;line-height:1.8}
+#study-jlpt-2013-07-12-n1-grammar .loan p{margin:0 0 7px;color:var(--ink)}
+#study-jlpt-2013-07-12-n1-grammar .loan p:last-child{margin-bottom:0}
+#study-jlpt-2013-07-12-n1-grammar .loan .english{font-weight:650;font-size:14px}
+#study-jlpt-2013-07-12-n1-grammar .source-locator{font-size:11px;color:var(--muted);line-height:1.8;margin:16px 0 0}
+#study-jlpt-2013-07-12-n1-grammar .source-locator a{white-space:nowrap;color:var(--muted)}
+#study-jlpt-2013-07-12-n1-grammar .review{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+#study-jlpt-2013-07-12-n1-grammar table{border-collapse:collapse;width:100%;margin:0!important;font-size:14px;color:var(--ink);background:var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar th,#study-jlpt-2013-07-12-n1-grammar td{text-align:left;padding:12px;border:0;border-bottom:1px solid var(--line);line-height:1.8;vertical-align:top}
+#study-jlpt-2013-07-12-n1-grammar th{background:var(--soft);font-weight:650;white-space:nowrap}
+#study-jlpt-2013-07-12-n1-grammar td:first-child{font-variant-numeric:tabular-nums}
+#study-jlpt-2013-07-12-n1-grammar tbody tr:hover{background:var(--soft)}
+#study-jlpt-2013-07-12-n1-grammar details{border:1px solid var(--line);border-radius:12px;margin:20px 0;padding:14px 17px;background:var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar summary{cursor:pointer;font-size:15px;color:var(--ink);font-weight:600}
+#study-jlpt-2013-07-12-n1-grammar details p{font-size:14px;line-height:1.9;color:var(--ink)}
+#study-jlpt-2013-07-12-n1-grammar .sources{padding:0;margin:15px 0;list-style:none!important;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
+#study-jlpt-2013-07-12-n1-grammar .sources li{font-size:13px;margin:0;padding:12px 0;border-bottom:1px solid var(--line);line-height:1.8}
+#study-jlpt-2013-07-12-n1-grammar .source-note{display:block;color:var(--muted);font-size:12px}
+#study-jlpt-2013-07-12-n1-grammar mark{background:rgba(255,212,83,.15);color:inherit;padding:0 .12em}
+#study-jlpt-2013-07-12-n1-grammar .content-section{scroll-margin-top:90px}
+#study-jlpt-2013-07-12-n1-grammar .content-section p{color:var(--ink)}
+@container (max-width:1000px){#study-jlpt-2013-07-12-n1-grammar .words{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@container (max-width:490px){#study-jlpt-2013-07-12-n1-grammar .words{grid-template-columns:1fr}#study-jlpt-2013-07-12-n1-grammar .sources{grid-template-columns:1fr}}
+@media(max-width:600px){#study-jlpt-2013-07-12-n1-grammar .words{grid-template-columns:1fr}#study-jlpt-2013-07-12-n1-grammar .sources{grid-template-columns:1fr}#study-jlpt-2013-07-12-n1-grammar{font-size:16px;padding:14px}#study-jlpt-2013-07-12-n1-grammar h2{font-size:21px}#study-jlpt-2013-07-12-n1-grammar .word{padding:18px}#study-jlpt-2013-07-12-n1-grammar .review table{min-width:560px}}
+@media print{#study-jlpt-2013-07-12-n1-grammar{padding:0}#study-jlpt-2013-07-12-n1-grammar .words{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Grammar note cards; scoped to a single generated article. */
+#study-jlpt-2013-07-12-n1-grammar .grammar-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:stretch;margin:0 0 34px}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card{border:1px solid var(--line);border-radius:14px;padding:19px 20px 20px;min-width:0;background:var(--paper);scroll-margin-top:90px}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-0{background:linear-gradient(135deg,rgba(75,156,244,.085),transparent 190px),var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-1{background:linear-gradient(135deg,rgba(236,150,105,.10),transparent 190px),var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-2{background:linear-gradient(135deg,rgba(171,140,235,.085),transparent 190px),var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-3{background:linear-gradient(135deg,rgba(242,130,164,.085),transparent 190px),var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-4{background:linear-gradient(135deg,rgba(98,174,191,.10),transparent 190px),var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-5{background:linear-gradient(135deg,rgba(245,193,97,.11),transparent 190px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-0{background:linear-gradient(135deg,rgba(75,156,244,.18),transparent 190px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-1{background:linear-gradient(135deg,rgba(236,150,105,.17),transparent 190px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-2{background:linear-gradient(135deg,rgba(171,140,235,.18),transparent 190px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-3{background:linear-gradient(135deg,rgba(242,130,164,.16),transparent 190px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-4{background:linear-gradient(135deg,rgba(98,174,191,.16),transparent 190px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2013-07-12-n1-grammar .grammar-card.tone-5{background:linear-gradient(135deg,rgba(245,193,97,.14),transparent 190px),var(--paper)}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card h3{font-size:21px;line-height:1.5;overflow-wrap:anywhere;margin:2px 0 7px}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card p{margin:10px 0;line-height:1.72;color:var(--ink)}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .entry-meta{font-size:12px;color:var(--muted);margin:0 0 12px}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .reading{font-size:14px;color:var(--muted);margin:0 0 12px}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .meaning{font-size:17px;line-height:1.7;font-weight:570;margin:14px 0 12px}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .raw,#study-jlpt-2013-07-12-n1-grammar .grammar-card .form{font-size:14px}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .raw{color:var(--muted)}
+#study-jlpt-2013-07-12-n1-grammar .minilabel{font-size:12px;letter-spacing:.035em;white-space:nowrap;font-weight:750;color:var(--ink);margin-right:6px}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .sample{border-left:3px solid var(--line);border-radius:0 8px 8px 0;background:var(--soft);padding:9px 13px;margin:14px 0 12px}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .sample p{margin:4px 0}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .sample .sample-label{font-size:12px;color:var(--muted);font-weight:650;margin:0 0 6px}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .sample .ja{font-size:17px;line-height:1.7;font-weight:590}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .sample .zh{font-size:15px;color:var(--ink)}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .vocab{font-size:13px;line-height:1.85}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .tip{font-size:14px;padding:8px 10px;background:var(--soft);border-radius:7px;margin:12px 0 6px}
+#study-jlpt-2013-07-12-n1-grammar .grammar-card .refs-inline{font-size:12px;line-height:1.8;color:var(--muted);margin:10px 0 0}
+#study-jlpt-2013-07-12-n1-grammar .section-hint{font-size:14px;color:var(--muted);line-height:1.8;margin:-4px 0 18px}
+#study-jlpt-2013-07-12-n1-grammar .mistake-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+#study-jlpt-2013-07-12-n1-grammar .mistake{border:1px solid var(--line);border-radius:11px;padding:14px;background:var(--soft)}
+#study-jlpt-2013-07-12-n1-grammar .mistake h3{font-size:16px;line-height:1.5;margin:0 0 6px}
+#study-jlpt-2013-07-12-n1-grammar .mistake p{font-size:14px;line-height:1.8;margin:0}
+#study-jlpt-2013-07-12-n1-grammar .content-section{margin:0 0 12px}
+#study-jlpt-2013-07-12-n1-grammar .content-section p{font-size:15px;line-height:1.85}
+#study-jlpt-2013-07-12-n1-grammar .review table{min-width:680px}
+#study-jlpt-2013-07-12-n1-grammar .review a{font-weight:570}
+@container (max-width:900px){#study-jlpt-2013-07-12-n1-grammar .grammar-grid{grid-template-columns:1fr}}
+@container (max-width:640px){#study-jlpt-2013-07-12-n1-grammar .mistake-list{grid-template-columns:1fr}}
+@media(max-width:620px){#study-jlpt-2013-07-12-n1-grammar .grammar-grid{grid-template-columns:1fr;gap:14px}#study-jlpt-2013-07-12-n1-grammar .grammar-card{padding:17px 15px}#study-jlpt-2013-07-12-n1-grammar .grammar-card h3{font-size:20px}#study-jlpt-2013-07-12-n1-grammar .mistake-list{grid-template-columns:1fr}}
+
+/* Two dated sections belong to one article; scoped visual separators. */
+#study-jlpt-2013-07-12-n1-grammar .month-chapter{margin:36px 0 45px;padding-top:16px;border-top:1px solid var(--line);scroll-margin-top:90px}
+#study-jlpt-2013-07-12-n1-grammar .month-header{margin:8px 0 20px}
+#study-jlpt-2013-07-12-n1-grammar .month-header .chapter-label{margin:0 0 4px;font-size:12px;letter-spacing:.14em;color:var(--muted);font-weight:750}
+#study-jlpt-2013-07-12-n1-grammar .month-header h2{margin:0 0 8px}
+#study-jlpt-2013-07-12-n1-grammar .month-header>p:last-child{margin:0;font-size:14px;color:var(--muted);line-height:1.9}
+#study-jlpt-2013-07-12-n1-grammar .month-chapter .content-section>h3{font-size:20px;line-height:1.5;margin:35px 0 14px;color:var(--ink);scroll-margin-top:90px}
+#study-jlpt-2013-07-12-n1-grammar .month-chapter .mistake h4{font-size:16px;line-height:1.5;margin:0 0 6px;color:var(--ink)}
+#study-jlpt-2013-07-12-n1-grammar .combo-note{padding:6px 0 0;border-top:1px solid var(--line)}
+#study-jlpt-2013-07-12-n1-grammar .combo-note p{font-size:15px;line-height:1.95}
