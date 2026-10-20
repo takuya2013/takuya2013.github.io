@@ -1,0 +1,119 @@
+/* study-jlpt-2022-12-n1-listening only. No global theme rules, fonts, scripts, page breaks or animations. */
+#study-jlpt-2022-12-n1-listening{--ink:#202124;--muted:#555e6a;--line:#dce1e7;--paper:#ffffff;--soft:#f7f8fa;--link:#234c80;color:var(--ink);background:var(--paper);font:17px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Noto Sans CJK JP","Microsoft YaHei",sans-serif;container-type:inline-size;padding:clamp(12px,2.2vw,28px);border-radius:16px;overflow-wrap:anywhere;text-align:left}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening,#study-jlpt-2022-12-n1-listening[data-theme="dark"]{--ink:#f2f3f5;--muted:#b9c0ca;--line:#3a4048;--paper:#191c21;--soft:#24282e;--link:#b8d5ff;color-scheme:dark}
+#study-jlpt-2022-12-n1-listening *{box-sizing:border-box}
+#study-jlpt-2022-12-n1-listening .eyebrow{font-size:12px;letter-spacing:.12em;color:var(--muted);margin:0 0 9px}
+#study-jlpt-2022-12-n1-listening .lead{font-size:16px;max-width:66em;margin:0 0 8px}
+#study-jlpt-2022-12-n1-listening .scope{color:var(--muted);font-size:13px;margin:0}
+#study-jlpt-2022-12-n1-listening .contents{display:flex;flex-wrap:wrap;gap:10px;padding:18px 0 24px;margin:0 0 24px;border-bottom:1px solid var(--line)}
+#study-jlpt-2022-12-n1-listening a{color:var(--link);text-decoration:none;border-bottom:1px solid transparent}
+#study-jlpt-2022-12-n1-listening a:hover{border-bottom-color:currentColor}
+#study-jlpt-2022-12-n1-listening a:focus-visible,#study-jlpt-2022-12-n1-listening summary:focus-visible{outline:2px solid var(--link);outline-offset:4px}
+#study-jlpt-2022-12-n1-listening .contents a{font-size:13px;background:var(--soft);padding:6px 13px;border:1px solid var(--line);border-radius:99px}
+#study-jlpt-2022-12-n1-listening h2{font-size:23px;line-height:1.45;font-weight:680;letter-spacing:.02em;margin:38px 0 18px;color:var(--ink);scroll-margin-top:90px}
+#study-jlpt-2022-12-n1-listening .words{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;align-items:stretch;margin:0;padding:0}
+#study-jlpt-2022-12-n1-listening .word{position:relative;border:1px solid var(--line);border-radius:13px;padding:18px 17px 16px;background:var(--paper);min-width:0;box-shadow:none;scroll-margin-top:90px}
+#study-jlpt-2022-12-n1-listening .word.tone-0{background:linear-gradient(180deg,#eef5fc 0,transparent 142px),var(--paper)}
+#study-jlpt-2022-12-n1-listening .word.tone-1{background:linear-gradient(180deg,#fff3ed 0,transparent 142px),var(--paper)}
+#study-jlpt-2022-12-n1-listening .word.tone-2{background:linear-gradient(180deg,#f7f1fb 0,transparent 142px),var(--paper)}
+#study-jlpt-2022-12-n1-listening .word.tone-3{background:linear-gradient(180deg,#fcf0f3 0,transparent 142px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening .word.tone-0{background:linear-gradient(180deg,#242e3b 0,transparent 142px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening .word.tone-1{background:linear-gradient(180deg,#322b26 0,transparent 142px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening .word.tone-2{background:linear-gradient(180deg,#2d2937 0,transparent 142px),var(--paper)}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening .word.tone-3{background:linear-gradient(180deg,#352831 0,transparent 142px),var(--paper)}
+#study-jlpt-2022-12-n1-listening .entry-meta{display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:11px;letter-spacing:.04em;margin:0 0 10px}
+#study-jlpt-2022-12-n1-listening .number{font-variant-numeric:tabular-nums;font-weight:650}
+#study-jlpt-2022-12-n1-listening h3{font-size:20px;line-height:1.6;font-weight:690;letter-spacing:0;color:var(--ink);margin:0 0 7px;padding:0;scroll-margin-top:90px}
+#study-jlpt-2022-12-n1-listening .head-form{font-size:12px;font-weight:400;color:var(--muted);display:block;line-height:1.7;margin:2px 0 0}
+#study-jlpt-2022-12-n1-listening .reading{font-size:14px;color:var(--ink);margin:0 0 13px;line-height:1.75}
+#study-jlpt-2022-12-n1-listening .meaning{font-size:16px;font-weight:630;line-height:1.8;margin:0 0 12px;color:var(--ink)}
+#study-jlpt-2022-12-n1-listening .usage{font-size:14px;color:var(--ink);margin:0;line-height:1.9}
+#study-jlpt-2022-12-n1-listening .label{font-weight:650;font-size:11px;color:var(--muted);display:block;letter-spacing:.06em;margin:0 0 3px}
+#study-jlpt-2022-12-n1-listening .word-note{font-size:13px;border-top:1px solid var(--line);padding-top:12px;margin:14px 0 0;color:var(--ink);line-height:1.8}
+#study-jlpt-2022-12-n1-listening .loan{padding:12px;margin:14px 0 0;border:1px solid var(--line);background:var(--soft);border-radius:8px;font-size:13px;line-height:1.8}
+#study-jlpt-2022-12-n1-listening .loan p{margin:0 0 7px;color:var(--ink)}
+#study-jlpt-2022-12-n1-listening .loan p:last-child{margin-bottom:0}
+#study-jlpt-2022-12-n1-listening .loan .english{font-weight:650;font-size:14px}
+#study-jlpt-2022-12-n1-listening .source-locator{font-size:11px;color:var(--muted);line-height:1.8;margin:16px 0 0}
+#study-jlpt-2022-12-n1-listening .source-locator a{white-space:nowrap;color:var(--muted)}
+#study-jlpt-2022-12-n1-listening .review{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+#study-jlpt-2022-12-n1-listening table{border-collapse:collapse;width:100%;margin:0!important;font-size:14px;color:var(--ink);background:var(--paper)}
+#study-jlpt-2022-12-n1-listening th,#study-jlpt-2022-12-n1-listening td{text-align:left;padding:12px;border:0;border-bottom:1px solid var(--line);line-height:1.8;vertical-align:top}
+#study-jlpt-2022-12-n1-listening th{background:var(--soft);font-weight:650;white-space:nowrap}
+#study-jlpt-2022-12-n1-listening td:first-child{font-variant-numeric:tabular-nums}
+#study-jlpt-2022-12-n1-listening tbody tr:hover{background:var(--soft)}
+#study-jlpt-2022-12-n1-listening details{border:1px solid var(--line);border-radius:12px;margin:20px 0;padding:14px 17px;background:var(--paper)}
+#study-jlpt-2022-12-n1-listening summary{cursor:pointer;font-size:15px;color:var(--ink);font-weight:600}
+#study-jlpt-2022-12-n1-listening details p{font-size:14px;line-height:1.9;color:var(--ink)}
+#study-jlpt-2022-12-n1-listening .sources{padding:0;margin:15px 0;list-style:none!important;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
+#study-jlpt-2022-12-n1-listening .sources li{font-size:13px;margin:0;padding:12px 0;border-bottom:1px solid var(--line);line-height:1.8}
+#study-jlpt-2022-12-n1-listening .source-note{display:block;color:var(--muted);font-size:12px}
+#study-jlpt-2022-12-n1-listening mark{background:rgba(255,212,83,.15);color:inherit;padding:0 .12em}
+#study-jlpt-2022-12-n1-listening .content-section{scroll-margin-top:90px}
+#study-jlpt-2022-12-n1-listening .content-section p{color:var(--ink)}
+@container (max-width:1000px){#study-jlpt-2022-12-n1-listening .words{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@container (max-width:490px){#study-jlpt-2022-12-n1-listening .words{grid-template-columns:1fr}#study-jlpt-2022-12-n1-listening .sources{grid-template-columns:1fr}}
+@media(max-width:600px){#study-jlpt-2022-12-n1-listening .words{grid-template-columns:1fr}#study-jlpt-2022-12-n1-listening .sources{grid-template-columns:1fr}#study-jlpt-2022-12-n1-listening{font-size:16px;padding:14px}#study-jlpt-2022-12-n1-listening h2{font-size:21px}#study-jlpt-2022-12-n1-listening .word{padding:18px}#study-jlpt-2022-12-n1-listening .review table{min-width:560px}}
+@media print{#study-jlpt-2022-12-n1-listening{padding:0}#study-jlpt-2022-12-n1-listening .words{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Listening continuation, scoped to this article. */
+#study-jlpt-2022-12-n1-listening{font-size:17px;--link:#335c65}
+#study-jlpt-2022-12-n1-listening .small-note{font-size:14px;color:var(--muted);margin:12px 0 20px}
+#study-jlpt-2022-12-n1-listening .summary-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:6px 0 18px}
+#study-jlpt-2022-12-n1-listening .summary-strip p{padding:14px;border:1px solid var(--line);border-radius:12px;margin:0;font-size:14px;background:var(--soft)}
+#study-jlpt-2022-12-n1-listening .summary-strip strong{display:block;font-size:27px;font-weight:700;line-height:1.3;color:var(--ink)}
+#study-jlpt-2022-12-n1-listening .question-section{margin:24px 0 28px;min-width:0}
+#study-jlpt-2022-12-n1-listening .section-meta{font-size:14px;color:var(--muted);margin:4px 0 10px}
+#study-jlpt-2022-12-n1-listening .table-shell{overflow:auto;max-width:100%;border:1px solid var(--line);border-radius:12px;margin:12px 0 24px;background:var(--paper)}
+#study-jlpt-2022-12-n1-listening table{font-size:16px;table-layout:fixed}
+#study-jlpt-2022-12-n1-listening table td,#study-jlpt-2022-12-n1-listening table th{padding:13px 15px;line-height:1.75;overflow-wrap:anywhere}
+#study-jlpt-2022-12-n1-listening .vocab-table{min-width:760px}
+#study-jlpt-2022-12-n1-listening .vocab-table .c-reading{width:26%}
+#study-jlpt-2022-12-n1-listening .vocab-table .c-jp{width:29%}
+#study-jlpt-2022-12-n1-listening .vocab-table .c-cn{width:25%}
+#study-jlpt-2022-12-n1-listening .vocab-table .c-level{width:20%}
+#study-jlpt-2022-12-n1-listening .vocab-table thead th{font-size:14px;white-space:normal;position:sticky;top:0;background:var(--soft);z-index:1}
+#study-jlpt-2022-12-n1-listening .jp-head{font-size:18px;font-weight:620;display:inline}
+#study-jlpt-2022-12-n1-listening .memory-form{display:block;font-size:14px;color:var(--muted);margin-top:3px}
+#study-jlpt-2022-12-n1-listening .difficulty{white-space:nowrap;font-size:14px;letter-spacing:0}
+#study-jlpt-2022-12-n1-listening tr.is-current td{background:#fff6cf;color:var(--ink)}
+#study-jlpt-2022-12-n1-listening .is-current .memory-form{color:var(--muted)}
+#study-jlpt-2022-12-n1-listening .batch-tag{display:inline-block;padding:0 6px;border:1px solid #b5a260;border-radius:5px;font-size:11px;margin:0 0 0 8px;vertical-align:middle;color:var(--ink);line-height:1.7}
+#study-jlpt-2022-12-n1-listening .source-form{display:block;font-size:14px;color:var(--muted);margin:6px 0 0}
+#study-jlpt-2022-12-n1-listening .context-table{min-width:720px}
+#study-jlpt-2022-12-n1-listening .context-table th:nth-child(1){width:16%}
+#study-jlpt-2022-12-n1-listening .context-table th:nth-child(2){width:25%}
+#study-jlpt-2022-12-n1-listening .context-table th:nth-child(3){width:47%}
+#study-jlpt-2022-12-n1-listening .context-table th:nth-child(4){width:12%}
+#study-jlpt-2022-12-n1-listening .notes-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+#study-jlpt-2022-12-n1-listening .note-card{border:1px solid var(--line);border-radius:12px;padding:18px;min-width:0;background:var(--soft)}
+#study-jlpt-2022-12-n1-listening .note-card.is-current{background:#fff6cf}
+#study-jlpt-2022-12-n1-listening .note-card h3{font-size:18px;line-height:1.6}
+#study-jlpt-2022-12-n1-listening .note-card p{font-size:16px;line-height:1.8;margin:8px 0}
+#study-jlpt-2022-12-n1-listening .note-card .note-reading{font-size:14px;color:var(--muted)}
+#study-jlpt-2022-12-n1-listening .note-card .locator{font-size:13px;color:var(--muted);margin-top:12px}
+#study-jlpt-2022-12-n1-listening .coverage-table{min-width:650px}
+#study-jlpt-2022-12-n1-listening .coverage-table th:nth-child(1){width:18%}
+#study-jlpt-2022-12-n1-listening .coverage-table th:nth-child(2){width:34%}
+#study-jlpt-2022-12-n1-listening .coverage-table th:nth-child(3){width:8%}
+#study-jlpt-2022-12-n1-listening .coverage-table th:nth-child(4){width:40%}
+#study-jlpt-2022-12-n1-listening .history-table{min-width:900px}
+#study-jlpt-2022-12-n1-listening .history-table th{white-space:normal}
+#study-jlpt-2022-12-n1-listening details p{font-size:16px}
+#study-jlpt-2022-12-n1-listening .migration-note{border-left:3px solid var(--line);padding:2px 18px;margin:20px 0}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening{--link:#c1e5eb}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening tr.is-current td,[data-theme="dark"] #study-jlpt-2022-12-n1-listening .note-card.is-current{background:#3b3422;color:var(--ink)}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening .batch-tag{border-color:#a99b72}
+@media(max-width:700px){#study-jlpt-2022-12-n1-listening .summary-strip{grid-template-columns:repeat(2,minmax(0,1fr))}#study-jlpt-2022-12-n1-listening .notes-grid{grid-template-columns:1fr}#study-jlpt-2022-12-n1-listening .context-table{min-width:660px}#study-jlpt-2022-12-n1-listening .vocab-table{min-width:720px}#study-jlpt-2022-12-n1-listening .vocab-table td,#study-jlpt-2022-12-n1-listening .vocab-table th{padding:11px 12px}}
+#study-jlpt-2022-12-n1-listening .table-shell.tone-0 tr.ordinary td,#study-jlpt-2022-12-n1-listening .coverage-table tr.tone-0 td{background:#fff3f6}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening .table-shell.tone-0 tr.ordinary td,[data-theme="dark"] #study-jlpt-2022-12-n1-listening .coverage-table tr.tone-0 td{background:#32262c}
+#study-jlpt-2022-12-n1-listening .table-shell.tone-1 tr.ordinary td,#study-jlpt-2022-12-n1-listening .coverage-table tr.tone-1 td{background:#eef8f4}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening .table-shell.tone-1 tr.ordinary td,[data-theme="dark"] #study-jlpt-2022-12-n1-listening .coverage-table tr.tone-1 td{background:#22342d}
+#study-jlpt-2022-12-n1-listening .table-shell.tone-2 tr.ordinary td,#study-jlpt-2022-12-n1-listening .coverage-table tr.tone-2 td{background:#fff5ee}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening .table-shell.tone-2 tr.ordinary td,[data-theme="dark"] #study-jlpt-2022-12-n1-listening .coverage-table tr.tone-2 td{background:#362a22}
+#study-jlpt-2022-12-n1-listening .table-shell.tone-3 tr.ordinary td,#study-jlpt-2022-12-n1-listening .coverage-table tr.tone-3 td{background:#f1f7fc}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening .table-shell.tone-3 tr.ordinary td,[data-theme="dark"] #study-jlpt-2022-12-n1-listening .coverage-table tr.tone-3 td{background:#242d36}
+#study-jlpt-2022-12-n1-listening .table-shell.tone-4 tr.ordinary td,#study-jlpt-2022-12-n1-listening .coverage-table tr.tone-4 td{background:#f7f2fb}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening .table-shell.tone-4 tr.ordinary td,[data-theme="dark"] #study-jlpt-2022-12-n1-listening .coverage-table tr.tone-4 td{background:#2d2634}
+#study-jlpt-2022-12-n1-listening .table-shell.tone-5 tr.ordinary td,#study-jlpt-2022-12-n1-listening .coverage-table tr.tone-5 td{background:#eff9f8}
+[data-theme="dark"] #study-jlpt-2022-12-n1-listening .table-shell.tone-5 tr.ordinary td,[data-theme="dark"] #study-jlpt-2022-12-n1-listening .coverage-table tr.tone-5 td{background:#223330}
