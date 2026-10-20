@@ -1,0 +1,78 @@
+#study-jlpt-2021-07-n1-listening { --ink:#24272c;--muted:#505762;--paper:#fff;--edge:#d4d9df;--pink:#fff3f5;--peach:#fff3ec;--mint:#eef9f3;--aqua:#eff8fa;--rose:#fbf1f4;--sage:#f3f8ed;--yellow:#fff3bd; background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"PingFang SC","Hiragino Sans","Microsoft YaHei","Yu Gothic",sans-serif;line-height:1.8;font-size:16px;padding:26px 30px;border:1px solid var(--edge);border-radius:18px;box-sizing:border-box;overflow-wrap:anywhere; }
+#study-jlpt-2021-07-n1-listening * {box-sizing:border-box;}
+#study-jlpt-2021-07-n1-listening .eyebrow {font-size:13px;font-weight:700;letter-spacing:.12em;color:var(--muted);margin:0 0 8px;}
+#study-jlpt-2021-07-n1-listening .lead {font-size:19px;font-weight:650;margin:0 0 8px;}
+#study-jlpt-2021-07-n1-listening .scope {font-size:15px;color:var(--muted);margin:8px 0 20px;}
+#study-jlpt-2021-07-n1-listening a {color:inherit;text-decoration:underline;text-underline-offset:.2em;}
+#study-jlpt-2021-07-n1-listening a:focus-visible {outline:2px solid currentColor;outline-offset:4px;}
+#study-jlpt-2021-07-n1-listening h2 {font-size:23px;line-height:1.5;color:var(--ink);margin:36px 0 16px;padding:0;scroll-margin-top:90px;}
+#study-jlpt-2021-07-n1-listening h3 {font-size:19px;line-height:1.55;color:var(--ink);margin:0;padding:14px 18px;scroll-margin-top:90px;}
+#study-jlpt-2021-07-n1-listening .contents {display:flex;flex-wrap:wrap;gap:9px 14px;padding:14px 16px;border:1px solid var(--edge);border-radius:12px;margin:24px 0;}
+#study-jlpt-2021-07-n1-listening .contents a {font-size:15px;}
+#study-jlpt-2021-07-n1-listening .group {border:1px solid var(--edge);border-radius:12px;margin:20px 0 24px;overflow:hidden;}
+#study-jlpt-2021-07-n1-listening .tone-0 h3 {background:var(--pink);}
+#study-jlpt-2021-07-n1-listening .tone-1 h3 {background:var(--peach);}
+#study-jlpt-2021-07-n1-listening .tone-2 h3 {background:var(--mint);}
+#study-jlpt-2021-07-n1-listening .tone-3 h3 {background:var(--aqua);}
+#study-jlpt-2021-07-n1-listening .tone-4 h3 {background:var(--rose);}
+#study-jlpt-2021-07-n1-listening .tone-5 h3 {background:var(--sage);}
+#study-jlpt-2021-07-n1-listening .table-wrap {width:100%;overflow-x:auto;overscroll-behavior-x:contain;}
+#study-jlpt-2021-07-n1-listening table {border-collapse:collapse;width:100%;color:var(--ink);font-size:16px;line-height:1.8;margin:0;table-layout:fixed;}
+#study-jlpt-2021-07-n1-listening th {font-weight:650;text-align:left;background:var(--paper);padding:12px 14px;border-bottom:1px solid var(--edge);color:var(--muted);font-size:14px;}
+#study-jlpt-2021-07-n1-listening td {padding:13px 14px;border-bottom:1px solid var(--edge);vertical-align:top;white-space:normal;overflow-wrap:anywhere;word-break:normal;}
+#study-jlpt-2021-07-n1-listening tr:last-child td {border-bottom:0;}
+#study-jlpt-2021-07-n1-listening .main-table th:nth-child(1) {width:25%;}
+#study-jlpt-2021-07-n1-listening .main-table th:nth-child(2) {width:26%;}
+#study-jlpt-2021-07-n1-listening .main-table th:nth-child(3) {width:33%;}
+#study-jlpt-2021-07-n1-listening .main-table th:nth-child(4) {width:16%;}
+#study-jlpt-2021-07-n1-listening .head-word {font-size:18px;font-weight:650;}
+#study-jlpt-2021-07-n1-listening .difficulty {font-size:14px;white-space:nowrap;letter-spacing:0;}
+#study-jlpt-2021-07-n1-listening .current td {background:var(--yellow);color:var(--ink);}
+#study-jlpt-2021-07-n1-listening .current-mark {display:inline-block;font-size:12px;border:1px solid #8e741d;border-radius:5px;margin:4px 0 0;padding:0 5px;white-space:nowrap;}
+#study-jlpt-2021-07-n1-listening .field-label {display:none;}
+#study-jlpt-2021-07-n1-listening details {border:1px solid var(--edge);border-radius:10px;margin:12px 0;background:var(--paper);color:var(--ink);}
+#study-jlpt-2021-07-n1-listening summary {padding:13px 16px;cursor:pointer;font-weight:650;color:var(--ink);}
+#study-jlpt-2021-07-n1-listening details[open] summary {border-bottom:1px solid var(--edge);}
+#study-jlpt-2021-07-n1-listening .sheet-meta {padding:9px 16px;font-size:14px;color:var(--muted);}
+#study-jlpt-2021-07-n1-listening .source-table {table-layout:auto;min-width:690px;}
+#study-jlpt-2021-07-n1-listening .source-table th {position:static;}
+#study-jlpt-2021-07-n1-listening .source-table td {min-width:105px;max-width:410px;font-size:15px;}
+#study-jlpt-2021-07-n1-listening .source-table .wide-note {background:var(--mint);font-size:15px;max-width:none;}
+#study-jlpt-2021-07-n1-listening .source-table tr.sheet-title td {font-weight:650;background:var(--aqua);}
+#study-jlpt-2021-07-n1-listening .worksheet-note {padding:12px 16px;margin:0;font-size:14px;color:var(--muted);}
+#study-jlpt-2021-07-n1-listening .sources {padding:0 20px 0 40px;}
+#study-jlpt-2021-07-n1-listening .sources li {margin:15px 0;}
+#study-jlpt-2021-07-n1-listening .source-note {display:block;color:var(--muted);font-size:14px;}
+#study-jlpt-2021-07-n1-listening .toc-questions {display:flex;flex-wrap:wrap;gap:8px 15px;margin:12px 0 20px;font-size:14px;}
+#study-jlpt-2021-07-n1-listening .summary-stats {display:flex;gap:12px;flex-wrap:wrap;margin:20px 0;}
+#study-jlpt-2021-07-n1-listening .summary-stats p {margin:0;padding:10px 16px;border-radius:10px;border:1px solid var(--edge);background:var(--mint);}
+#study-jlpt-2021-07-n1-listening .summary-stats strong {font-size:22px;margin-right:5px;}
+#study-jlpt-2021-07-n1-listening .legacy-notice {border-left:3px solid #9b817c;padding:10px 16px;background:var(--peach);margin:16px 0;color:var(--ink);font-size:15px;}
+#study-jlpt-2021-07-n1-listening .word-row {scroll-margin-top:100px;}
+[data-theme="dark"] #study-jlpt-2021-07-n1-listening {--ink:#f0f1f3;--muted:#c5c9d0;--paper:#17191d;--edge:#464a53;--pink:#30232b;--peach:#312720;--mint:#20302b;--aqua:#213035;--rose:#30262c;--sage:#283025;--yellow:#473a1e;}
+[data-theme="dark"] #study-jlpt-2021-07-n1-listening .current-mark {border-color:#d8bc66;}
+@media(max-width:640px){
+#study-jlpt-2021-07-n1-listening {padding:20px 13px;border-radius:12px;font-size:16px;}
+#study-jlpt-2021-07-n1-listening h2 {font-size:21px;}
+#study-jlpt-2021-07-n1-listening h3 {font-size:18px;padding:12px 13px;}
+#study-jlpt-2021-07-n1-listening .lead {font-size:18px;}
+#study-jlpt-2021-07-n1-listening .main-table {display:block;table-layout:auto;}
+#study-jlpt-2021-07-n1-listening .main-table thead {display:none;}
+#study-jlpt-2021-07-n1-listening .main-table tbody {display:block;width:100%;}
+#study-jlpt-2021-07-n1-listening .main-table tr {display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 8px;padding:14px 13px;border-bottom:1px solid var(--edge);}
+#study-jlpt-2021-07-n1-listening .main-table tr:last-child {border-bottom:0;}
+#study-jlpt-2021-07-n1-listening .main-table td {padding:0;border:0;display:block;}
+#study-jlpt-2021-07-n1-listening .main-table td:nth-child(1) {grid-row:2;grid-column:1 / -1;font-size:15px;color:var(--muted);}
+#study-jlpt-2021-07-n1-listening .main-table td:nth-child(2) {grid-row:1;grid-column:1;}
+#study-jlpt-2021-07-n1-listening .main-table td:nth-child(3) {grid-row:3;grid-column:1 / -1;}
+#study-jlpt-2021-07-n1-listening .main-table td:nth-child(4) {grid-row:1;grid-column:2;text-align:right;}
+#study-jlpt-2021-07-n1-listening .main-table .current {background:var(--yellow);}
+#study-jlpt-2021-07-n1-listening .main-table .current td {background:transparent;}
+#study-jlpt-2021-07-n1-listening .main-table .difficulty {font-size:12px;}
+#study-jlpt-2021-07-n1-listening .main-table .head-word {font-size:18px;}
+#study-jlpt-2021-07-n1-listening .field-label {display:inline;font-size:12px;color:var(--muted);margin-right:7px;}
+#study-jlpt-2021-07-n1-listening .current-mark {font-size:11px;}
+#study-jlpt-2021-07-n1-listening .source-table {min-width:690px;}
+#study-jlpt-2021-07-n1-listening .summary-stats {gap:8px;}
+#study-jlpt-2021-07-n1-listening .summary-stats p {padding:8px 12px;font-size:14px;}
+}
