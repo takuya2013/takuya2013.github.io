@@ -1,0 +1,103 @@
+/* All selectors remain within this one study article. */
+#study-jlpt-2012-12-n1-complete{--ink:#20272f;--muted:#59646e;--line:#dae1e6;--paper:#fff;--soft:#f5f7f9;--link:#225b79;--good:#eaf5ed;--good-ink:#245736;color:var(--ink);background:var(--paper);font:17px/1.85 -apple-system,BlinkMacSystemFont,"Noto Sans CJK SC","Noto Sans CJK JP","Microsoft YaHei",sans-serif;padding:clamp(14px,2.5vw,34px);border-radius:16px;overflow-wrap:anywhere;text-align:left}
+[data-theme="dark"] #study-jlpt-2012-12-n1-complete,#study-jlpt-2012-12-n1-complete[data-theme="dark"]{--ink:#f0f3f5;--muted:#b1bec8;--line:#414a52;--paper:#1a1f24;--soft:#242c33;--link:#9ed3ef;--good:#263c2e;--good-ink:#c5e8cb;color-scheme:dark}
+#study-jlpt-2012-12-n1-complete *{box-sizing:border-box}
+#study-jlpt-2012-12-n1-complete a{color:var(--link);text-decoration:none}
+#study-jlpt-2012-12-n1-complete a:hover{text-decoration:underline}
+#study-jlpt-2012-12-n1-complete a:focus-visible,#study-jlpt-2012-12-n1-complete summary:focus-visible,#study-jlpt-2012-12-n1-complete .table-scroll:focus-visible{outline:2px solid var(--link);outline-offset:3px}
+#study-jlpt-2012-12-n1-complete p{margin:12px 0}
+#study-jlpt-2012-12-n1-complete h2{font-size:27px;line-height:1.45;color:var(--ink);font-weight:750;margin:26px 0 18px}
+#study-jlpt-2012-12-n1-complete h3{font-size:21px;line-height:1.5;color:var(--ink);margin:0 0 10px}
+#study-jlpt-2012-12-n1-complete h4{font-size:18px;line-height:1.6;color:var(--ink);margin:16px 0 8px}
+#study-jlpt-2012-12-n1-complete section,#study-jlpt-2012-12-n1-complete h2,#study-jlpt-2012-12-n1-complete h3,#study-jlpt-2012-12-n1-complete .original-text p{scroll-margin-top:100px}
+#study-jlpt-2012-12-n1-complete .eyebrow,#study-jlpt-2012-12-n1-complete .kicker{letter-spacing:.13em;font-size:12px;color:var(--muted);font-weight:600}
+#study-jlpt-2012-12-n1-complete .lead{font-size:17px;margin:0}
+#study-jlpt-2012-12-n1-complete .scope{font-size:13px;color:var(--muted);margin:6px 0 18px}
+#study-jlpt-2012-12-n1-complete .set-overview{padding:22px 24px;background:var(--soft);border:1px solid var(--line);border-radius:12px;margin:24px 0}
+#study-jlpt-2012-12-n1-complete .metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:22px 0}
+#study-jlpt-2012-12-n1-complete .metrics div{background:var(--paper);border:1px solid var(--line);border-radius:9px;padding:12px 18px}
+#study-jlpt-2012-12-n1-complete .metrics strong{display:block;font-size:30px;line-height:1.2;font-weight:750}
+#study-jlpt-2012-12-n1-complete .metrics span{font-size:12px;color:var(--muted);display:block;margin-top:7px}
+#study-jlpt-2012-12-n1-complete .contents{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0 12px}
+#study-jlpt-2012-12-n1-complete .contents a{border:1px solid var(--line);padding:7px 12px;border-radius:7px;background:var(--paper);font-size:13px}
+#study-jlpt-2012-12-n1-complete .question-index div{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+#study-jlpt-2012-12-n1-complete .question-index a{font-variant-numeric:tabular-nums;text-align:center;min-width:38px;padding:3px 5px;background:var(--soft);border-radius:5px}
+#study-jlpt-2012-12-n1-complete .chapter{margin:50px 0 24px;padding:22px 0 16px;border-top:3px solid var(--ink);border-bottom:1px solid var(--line)}
+#study-jlpt-2012-12-n1-complete .chapter span{color:var(--muted);margin-right:14px;font-size:15px}
+#study-jlpt-2012-12-n1-complete .subchapter{margin:28px 0 12px}
+#study-jlpt-2012-12-n1-complete .instruction{font-size:15px;padding:13px 16px;background:var(--soft);border-left:3px solid var(--line);margin:18px 0 24px}
+#study-jlpt-2012-12-n1-complete .question{--tone:#edf3f7;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:22px 0 28px;padding:0 22px 18px;background:var(--paper)}
+#study-jlpt-2012-12-n1-complete .tone-0{--tone:#eef4fa}
+#study-jlpt-2012-12-n1-complete .tone-1{--tone:#f8f0ea}
+#study-jlpt-2012-12-n1-complete .tone-2{--tone:#edf5f2}
+#study-jlpt-2012-12-n1-complete .tone-3{--tone:#f2eff7}
+#study-jlpt-2012-12-n1-complete .tone-4{--tone:#f7f3e8}
+[data-theme="dark"] #study-jlpt-2012-12-n1-complete .tone-0{--tone:#273340}
+[data-theme="dark"] #study-jlpt-2012-12-n1-complete .tone-1{--tone:#393028}
+[data-theme="dark"] #study-jlpt-2012-12-n1-complete .tone-2{--tone:#273a32}
+[data-theme="dark"] #study-jlpt-2012-12-n1-complete .tone-3{--tone:#322e40}
+[data-theme="dark"] #study-jlpt-2012-12-n1-complete .tone-4{--tone:#383528}
+#study-jlpt-2012-12-n1-complete .question-head{display:flex;justify-content:space-between;align-items:center;gap:14px;background:var(--tone);margin:0 -22px 17px;padding:14px 22px}
+#study-jlpt-2012-12-n1-complete .question-head h3{margin:0;font-size:18px;display:flex;gap:13px;align-items:baseline}
+#study-jlpt-2012-12-n1-complete .qnum{font-size:22px;font-weight:800;font-variant-numeric:tabular-nums}
+#study-jlpt-2012-12-n1-complete .locator{font-size:11px;color:var(--muted);line-height:1.6}
+#study-jlpt-2012-12-n1-complete .stem{font-size:18px;line-height:1.95;font-weight:530;padding:0;margin:12px 0 18px}
+#study-jlpt-2012-12-n1-complete .source-ja{font-family:"Hiragino Kaku Gothic ProN","Noto Sans CJK JP","Yu Gothic",system-ui,sans-serif}
+#study-jlpt-2012-12-n1-complete u{text-underline-offset:.23em;text-decoration-thickness:1px}
+#study-jlpt-2012-12-n1-complete .options{list-style:none;padding:0!important;margin:12px 0 18px!important;display:grid;gap:7px}
+#study-jlpt-2012-12-n1-complete .option{display:flex;align-items:baseline;gap:12px;border:1px solid var(--line);padding:10px 14px;border-radius:7px;margin:0!important;font-size:16px;line-height:1.8;background:var(--paper)}
+#study-jlpt-2012-12-n1-complete .choice-number{flex-shrink:0;font-size:14px;font-weight:700;width:15px;color:var(--muted)}
+#study-jlpt-2012-12-n1-complete .option.correct{background:var(--good);border-color:var(--good-ink)}
+#study-jlpt-2012-12-n1-complete .answer-mark{margin-left:auto;flex-shrink:0;font-size:10px;white-space:nowrap;font-weight:700;color:var(--good-ink);padding-left:10px}
+#study-jlpt-2012-12-n1-complete details{border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin:16px 0;background:var(--paper)}
+#study-jlpt-2012-12-n1-complete summary{font-size:14px;font-weight:700;cursor:pointer;color:var(--muted)}
+#study-jlpt-2012-12-n1-complete details[open] summary{margin-bottom:13px}
+#study-jlpt-2012-12-n1-complete .translation{font-size:15px;line-height:1.95;color:var(--ink)}
+#study-jlpt-2012-12-n1-complete .translation b{font-size:12px;color:var(--muted);margin-right:8px}
+#study-jlpt-2012-12-n1-complete .option-notes{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0;margin:14px 0}
+#study-jlpt-2012-12-n1-complete .option-notes p{font-size:14px;line-height:1.9;margin:10px 0;display:flex;gap:12px}
+#study-jlpt-2012-12-n1-complete .option-notes b{font-size:13px;color:var(--muted);flex-shrink:0}
+#study-jlpt-2012-12-n1-complete .reason{font-size:15px;line-height:2;background:var(--soft);border-left:3px solid var(--link);padding:12px 16px;margin:15px 0}
+#study-jlpt-2012-12-n1-complete .reason b{display:block;font-size:12px;color:var(--muted);letter-spacing:.05em;margin-bottom:5px}
+#study-jlpt-2012-12-n1-complete .order{font-size:15px;padding:10px 13px;background:var(--soft);font-weight:650}
+#study-jlpt-2012-12-n1-complete .order span{font-size:13px;font-weight:400}
+#study-jlpt-2012-12-n1-complete .vocabulary{border-style:dashed;margin-bottom:0}
+#study-jlpt-2012-12-n1-complete .word-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 20px;margin:0}
+#study-jlpt-2012-12-n1-complete .word-cell{padding:11px 0;border-bottom:1px solid var(--line);min-width:0;font-size:13px;line-height:1.8}
+#study-jlpt-2012-12-n1-complete dt{font-size:15px;font-weight:700;margin:0}
+#study-jlpt-2012-12-n1-complete dd{margin:3px 0 0}
+#study-jlpt-2012-12-n1-complete .kana{font-size:12px;color:var(--muted)}
+#study-jlpt-2012-12-n1-complete .english{font-size:12px;line-height:1.7;color:var(--muted)}
+#study-jlpt-2012-12-n1-complete .passage{margin:36px 0 46px}
+#study-jlpt-2012-12-n1-complete .passage-head{border-bottom:2px solid var(--line);padding-bottom:12px;margin-bottom:20px}
+#study-jlpt-2012-12-n1-complete .passage-head h3{font-size:23px}
+#study-jlpt-2012-12-n1-complete .original-text{background:var(--paper);padding:10px 24px;border:1px solid var(--line);border-radius:8px;font:18px/2.1 "Hiragino Kaku Gothic ProN","Noto Sans CJK JP","Yu Gothic",sans-serif;max-width:100%;margin:18px 0}
+#study-jlpt-2012-12-n1-complete .original-text p{margin:19px 0;text-indent:1em}
+#study-jlpt-2012-12-n1-complete .para-number{float:left;font-family:system-ui,sans-serif;font-size:10px;color:var(--muted);text-indent:0;margin:9px 12px 0 -12px;line-height:1.6}
+#study-jlpt-2012-12-n1-complete .attribution{font-size:12px!important;color:var(--muted);text-align:right;text-indent:0!important}
+#study-jlpt-2012-12-n1-complete .footnotes{padding:4px 0 7px;border-top:1px solid var(--line);font-size:13px;line-height:1.8}
+#study-jlpt-2012-12-n1-complete .footnotes p{margin:6px 0;text-indent:0}
+#study-jlpt-2012-12-n1-complete .caution{font-size:13px!important;border-left:3px solid #ad8954;padding:10px 14px;background:var(--soft);line-height:1.9}
+#study-jlpt-2012-12-n1-complete .recap{padding:21px 24px;background:var(--soft);border:1px solid var(--line);border-radius:9px;margin:30px 0}
+#study-jlpt-2012-12-n1-complete .recap h3{font-size:19px}
+#study-jlpt-2012-12-n1-complete .recap p{font-size:15px;line-height:1.95}
+#study-jlpt-2012-12-n1-complete .recap-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 25px}
+#study-jlpt-2012-12-n1-complete .table-scroll{overflow-x:auto;max-width:100%;margin:15px 0;border:1px solid var(--line);border-radius:8px}
+#study-jlpt-2012-12-n1-complete table{border-collapse:collapse;width:100%;margin:0!important;background:var(--paper);font-size:14px;line-height:1.85;color:var(--ink)}
+#study-jlpt-2012-12-n1-complete th,#study-jlpt-2012-12-n1-complete td{text-align:left;vertical-align:top;border:0;border-bottom:1px solid var(--line);padding:10px 12px;min-width:55px}
+#study-jlpt-2012-12-n1-complete th{background:var(--soft);font-weight:700}
+#study-jlpt-2012-12-n1-complete .schedule table{min-width:760px}
+#study-jlpt-2012-12-n1-complete .schedule td:nth-child(2){min-width:120px}
+#study-jlpt-2012-12-n1-complete .schedule td:nth-child(4){min-width:165px}
+#study-jlpt-2012-12-n1-complete .review-table{min-width:760px}
+#study-jlpt-2012-12-n1-complete .review-table td:nth-child(2){width:18%}
+#study-jlpt-2012-12-n1-complete .review-table td:nth-child(3){width:20%}
+#study-jlpt-2012-12-n1-complete .review-table td:nth-child(4){width:35%}
+#study-jlpt-2012-12-n1-complete .source-note{display:block;color:var(--muted);font-size:12px;margin-top:5px}
+#study-jlpt-2012-12-n1-complete .sources{padding-left:23px}
+#study-jlpt-2012-12-n1-complete .sources li{margin:12px 0;font-size:14px}
+@media(max-width:760px){#study-jlpt-2012-12-n1-complete .word-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#study-jlpt-2012-12-n1-complete .question-head{align-items:flex-start}#study-jlpt-2012-12-n1-complete .question-head .locator{max-width:70px}#study-jlpt-2012-12-n1-complete .recap-grid{grid-template-columns:1fr}}
+@media(max-width:490px){#study-jlpt-2012-12-n1-complete{padding:13px;font-size:16px}#study-jlpt-2012-12-n1-complete .set-overview{padding:16px}#study-jlpt-2012-12-n1-complete h2{font-size:23px}#study-jlpt-2012-12-n1-complete .metrics{gap:7px}#study-jlpt-2012-12-n1-complete .metrics div{padding:10px}#study-jlpt-2012-12-n1-complete .metrics strong{font-size:26px}#study-jlpt-2012-12-n1-complete .metrics span{font-size:10px}#study-jlpt-2012-12-n1-complete .question{padding:0 13px 14px}#study-jlpt-2012-12-n1-complete .question-head{margin:0 -13px 13px;padding:12px 13px}#study-jlpt-2012-12-n1-complete .question-head h3{font-size:17px;gap:9px}#study-jlpt-2012-12-n1-complete .stem{font-size:17px}#study-jlpt-2012-12-n1-complete .option{padding:9px 11px;gap:7px;font-size:15px;flex-wrap:wrap}#study-jlpt-2012-12-n1-complete .option span[lang]{flex:1;min-width:78%}#study-jlpt-2012-12-n1-complete .answer-mark{padding-left:23px;margin:0}#study-jlpt-2012-12-n1-complete details{padding:10px 12px}#study-jlpt-2012-12-n1-complete .word-grid{grid-template-columns:1fr}#study-jlpt-2012-12-n1-complete .original-text{padding:8px 18px;font-size:17px;line-height:2}#study-jlpt-2012-12-n1-complete .recap{padding:17px}#study-jlpt-2012-12-n1-complete .sessions table{min-width:470px}}
+@media print{#study-jlpt-2012-12-n1-complete{--paper:#fff;--ink:#000;--muted:#333;--line:#999;--soft:#f4f4f4;--link:#222;padding:0;font-size:11pt}#study-jlpt-2012-12-n1-complete .contents,#study-jlpt-2012-12-n1-complete .question-index{display:none}#study-jlpt-2012-12-n1-complete .question{border:1px solid #aaa;overflow:visible}#study-jlpt-2012-12-n1-complete .question-head{break-after:avoid}#study-jlpt-2012-12-n1-complete .original-text{font-size:11pt;line-height:1.9;overflow:visible}#study-jlpt-2012-12-n1-complete .table-scroll{overflow:visible}#study-jlpt-2012-12-n1-complete .review-table,#study-jlpt-2012-12-n1-complete .schedule table,#study-jlpt-2012-12-n1-complete .sessions table{min-width:0}#study-jlpt-2012-12-n1-complete th,#study-jlpt-2012-12-n1-complete td{padding:6px;font-size:9pt}#study-jlpt-2012-12-n1-complete .word-grid{grid-template-columns:repeat(3,minmax(0,1fr))}#study-jlpt-2012-12-n1-complete .option{font-size:11pt}#study-jlpt-2012-12-n1-complete .para-number{display:none}}
+
+#study-jlpt-2012-12-n1-complete .solution{border-top:1px solid var(--line);margin:24px 0;padding:10px 0}#study-jlpt-2012-12-n1-complete .option-explain{color:var(--muted)}#study-jlpt-2012-12-n1-complete .word-grid{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:900px){#study-jlpt-2012-12-n1-complete .word-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:490px){#study-jlpt-2012-12-n1-complete .word-grid{grid-template-columns:1fr}}
